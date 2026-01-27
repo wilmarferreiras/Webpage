@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background-color:white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#main-header{
+    text-align: center; 
+}
+.cyber-security{
+    float: left;
+    padding-left: 10%;
+}
+.cyber-security img{    
+    width: 20rem;
+    height: 20rem;
+}
+.cyber-security h2{
+    text-align: center;
+}
+.programmer img{
+    width: 20rem;
+    height: 20rem;
+    padding-left: 15%;
+}
+.programmer H2{
+    text-align: center;
+}
+.accessibility-tester img{
+    width: 20rem;
+    height: 20rem;
+    padding-left: 37%;
+}
+.accessibility-tester H2{
+    text-align: center;
+}
+#instructions{
+    text-align: center;
+    margin-right: -10%;
+    margin-top: -10%;
+    background-color: yellow;
+    float: right;
+
+}

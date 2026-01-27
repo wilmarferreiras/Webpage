@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    border: 2rem solid black;
+}
+.logo-2 img{
+    float: left;
+    width: 10rem;
+    height: 10rem;
+}
+#main-header{
+    text-align: center;
+}
+.description{
+    display: flex;
+    justify-content: center;
+}
+.description p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.description img{
+    height: 20rem;
+    width: 20rem;
+}
+.programming-language-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.programming-language-table td{
+    text-align: center;
+    justify-content: center;
+    padding-top: 2%;
+}
+.programming-language-table th, td{
+    border: 0.1rem solid black;
+    height: 2rem;
+    font-size: 1rem;
+}
+.experiences-header{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.NASA-intership{
+    border: 0.1rem solid black;
+    float: left;
+}
+.NASA-intership h3{
+    font-size: 2rem;
+}
+.NASA-intership p{
+    font-size: 1.5rem;
+}
+.NASA-intership li{
+    font-size: 1.5rem;
+}
+.weareopenmarket-intership{
+    border: 0.1rem solid black;
+}
+.weareopenmarket-intership h3{
+    font-size: 2rem;
+}
+.weareopenmarket-intership p{
+    font-size: 1.5rem;
+}

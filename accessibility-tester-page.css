@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    background-color: black;
+    color: yellow;
+}
+.logo img{
+    float: left;
+    width: 10rem;
+    border: 0.1rem solid yellow;
+    background-color: white;
+}
+#main-header{
+    text-align: center;
+    font-size: 2    rem;
+}
+.screen-readers{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.screen-readers img{
+    width: 20rem;
+    height: 20rem;
+}
+.description{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+}
+.entire{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Tech-pals{
+    float: right;
+}
