@@ -225,8 +225,28 @@ body {
     cursor: pointer;
 }
 
+.contact-form button:disabled {
+    opacity: 0.7;
+    cursor: wait;
+}
+
 .contact-form button:hover {
     background: #ffe38b;
+}
+
+.contact-form-status {
+    margin: 0.85rem 0 0;
+    min-height: 1.2rem;
+    font-weight: 600;
+    color: #dbe7ff;
+}
+
+.contact-form-status.success {
+    color: #bff7b7;
+}
+
+.contact-form-status.error {
+    color: #ffd0d0;
 }
 
 .contact-details {

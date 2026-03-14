@@ -192,7 +192,7 @@
                 Leave an email address below to get in touch.
             </p>
 
-            <form name="contact-interest" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
+            <form id="contact-interest-form" name="contact-interest" method="POST" action="/thank-you" data-netlify="true" netlify-honeypot="bot-field" class="contact-form">
                 <input type="hidden" name="form-name" value="contact-interest">
                 <input type="hidden" name="subject" value="email inserted wants to contact you.">
                 <input type="hidden" name="message" value="email inserted wants to contact you.">
@@ -205,6 +205,7 @@
                     <input id="visitor-email" name="email" type="email" placeholder="name@example.com" required>
                     <button type="submit">Submit</button>
                 </div>
+                <p id="contact-form-status" class="contact-form-status" aria-live="polite"></p>
             </form>
 
             <div class="contact-details">
@@ -223,5 +224,44 @@
             </div>
         </section>
     </main>
+
+    <script>
+        (function () {
+            const form = document.getElementById("contact-interest-form");
+            const status = document.getElementById("contact-form-status");
+            if (!form || !status) return;
+
+            form.addEventListener("submit", async function (event) {
+                event.preventDefault();
+                status.textContent = "Submitting...";
+                status.className = "contact-form-status";
+
+                const submitButton = form.querySelector("button[type='submit']");
+                if (submitButton) submitButton.disabled = true;
+
+                try {
+                    const formData = new FormData(form);
+                    const response = await fetch("/", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                        body: new URLSearchParams(formData).toString()
+                    });
+
+                    if (!response.ok) {
+                        throw new Error("Submission failed");
+                    }
+
+                    form.reset();
+                    status.textContent = "Thanks. Your email was sent successfully.";
+                    status.className = "contact-form-status success";
+                } catch (error) {
+                    status.textContent = "Submission failed. Please try again in a moment.";
+                    status.className = "contact-form-status error";
+                } finally {
+                    if (submitButton) submitButton.disabled = false;
+                }
+            });
+        })();
+    </script>
 </body>
 </html>
