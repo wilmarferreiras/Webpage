@@ -156,6 +156,104 @@ body {
     padding: 0.35rem;
 }
 
+.contact-section {
+    background: linear-gradient(160deg, #081a3a 0%, #0e2f63 55%, #123f80 100%);
+    color: #fff;
+    border-top: 0.75rem solid #d8e7ff;
+}
+
+.contact-section h2 {
+    margin-bottom: 0.5rem;
+}
+
+.contact-name {
+    text-align: center;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0;
+    line-height: 1.15;
+}
+
+.contact-intro {
+    text-align: center;
+    margin: 0.5rem auto 1.5rem;
+    max-width: 38rem;
+    color: #dbe7ff;
+}
+
+.contact-form {
+    margin: 0 auto;
+    max-width: 42rem;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+
+.hidden-field {
+    display: none;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 0.45rem;
+    font-weight: 700;
+}
+
+.contact-form-row {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.contact-form input[type="email"] {
+    flex: 1;
+    min-width: 0;
+    border: 1px solid #b8d0ff;
+    border-radius: 0.5rem;
+    padding: 0.7rem 0.75rem;
+    font-size: 1rem;
+    color: #0d1f3f;
+}
+
+.contact-form button {
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background: #f0c847;
+    color: #10244a;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #ffe38b;
+}
+
+.contact-details {
+    max-width: 42rem;
+    margin: 1.25rem auto 0;
+}
+
+.social-line {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin: 0.6rem 0;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    background: #dbe7ff;
+    color: #12366f;
+}
+
 @media (max-width: 900px) {
     .section {
         padding: 3rem 1.25rem;
@@ -185,5 +283,9 @@ body {
 
     .experience-grid .experience-card:last-child {
         grid-column: span 1;
+    }
+
+    .contact-form-row {
+        flex-direction: column;
     }
 }
