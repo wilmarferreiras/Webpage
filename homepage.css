@@ -44,11 +44,3 @@ body{
     text-align: center;
     margin-top: 0.75rem;
 }
-#instructions{
-    text-align: center;
-    margin-right: -10%;
-    margin-top: -10%;
-    background-color: yellow;
-    float: right;
-
-}
