@@ -58,10 +58,6 @@ body {
     margin-right: 1rem;
 }
 
-.profile-block .name {
-    margin-top: 0;
-}
-
 .profile-block::after {
     content: "";
     display: block;
