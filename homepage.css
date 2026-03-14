@@ -5,42 +5,42 @@ body{
     padding-bottom: 10%;
     padding-left: 10%;
     padding-right: 10%;
+    text-align: center;
 }
 #main-header{
     text-align: center; 
 }
 .cyber-security{
-    float: left;
-    padding-left: 10%;
+    display: inline-block;
+    width: min(20rem, 100%);
+    margin: 0 1rem 2rem;
+    vertical-align: top;
 }
-.cyber-security img{    
-    width: 20rem;
-    height: 20rem;
-}
-.cyber-security h2{
-    text-align: center;
-}
-.programmer img{
-    width: 20rem;
-    height: 20rem;
-    padding-left: 15%;
-}
-.programmer H2{
-    text-align: center;
-}
+.cyber-security img,
+.programmer img,
 .accessibility-tester img{
-    width: 20rem;
-    height: 20rem;
-    padding-left: 37%;
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 0 auto;
 }
+.programmer{
+    display: inline-block;
+    width: min(20rem, 100%);
+    margin: 0 1rem 2rem;
+    vertical-align: top;
+}
+.accessibility-tester{
+    display: inline-block;
+    width: min(20rem, 100%);
+    margin: 0 1rem 2rem;
+    vertical-align: top;
+}
+.cyber-security h2,
+.programmer h2,
 .accessibility-tester H2{
     text-align: center;
-}
-#instructions{
-    text-align: center;
-    margin-right: -10%;
-    margin-top: -10%;
-    background-color: yellow;
-    float: right;
-
+    margin-top: 0.75rem;
 }
