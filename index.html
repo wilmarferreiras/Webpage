@@ -1,31 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="homepage.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wilmar's Resume</title>
+    <title>Wilmar Ferreiras Resume</title>
+    <link rel="stylesheet" href="one-page.css">
 </head>
 <body>
-    <h1 id="main-header">Welcome To My Resume</h1>
-    <div class="cyber-security">
-        <a href="cyber-security-page.html">
-            <img src="Images\pngtree-hidden-hacker-works-in-the-dark-to-steal-data-online-png-image_11479228.png" alt=""/>
-        </a>
-        <h2>Cyber Security</h2>
-    </div>
-    <div class="programmer">
-        <a href="programmer-page.html">
-            <img src="Images\Screenshot 2024-08-20 124203.png" alt=""/>
-        </a>
-        <h2>Programmer</h2>
-    </div>
-    <div class="accessibility-tester">
-        <a href="accessibility-tester-page.html">
-            <img src="Images\eye-circle-512.webp" alt=""/>
-        </a>
-        <h2>Accessibility Tester</h2>
-</div>
-<script src="home-page.js"></script>
-    </body>
+    <header class="site-header">
+        <h1>Wilmar Ferreiras Resume</h1>
+        <nav aria-label="Section navigation">
+            <a href="#cyber-security">Cyber Security</a>
+            <a href="#programmer">Programmer</a>
+            <a href="#accessibility">Accessibility Tester</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cyber-security" class="section cyber-section">
+            <div class="profile-block">
+                <img src="Images/pngtree-hidden-hacker-works-in-the-dark-to-steal-data-online-png-image_11479228.png" alt="Cyber security profile graphic">
+                <p class="name"><strong>Wilmar Ferreiras</strong></p>
+                <p>
+                    Address: 1074 Ade AVE<br>
+                    Bronx, NY 10469<br>
+                    Email: ferreiraswilmar39@gmail.com<br>
+                    Phone: (347) 829-0460
+                </p>
+            </div>
+
+            <h2>Cyber Security Journey</h2>
+            <img class="feature-image" src="Images/Bronx_Community_College_Logo.png" alt="Bronx Community College logo">
+
+            <div class="description">
+                <p>
+                    Hello future employers, my name is Wilmar. I am a <b>visually impaired student</b>
+                    who graduated <b>Bronx Community College</b>. I am aspiring to become a Cyber Security
+                    Analyst by any means.
+                </p>
+                <p>
+                    I enjoy helping others and staying open to learning new skills. In this section,
+                    you can find my cyber security experience and training journey.
+                </p>
+            </div>
+
+            <h3 class="experience-header">Experiences</h3>
+            <table class="experience-table">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Completion</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>CSN 100</td><td>Testout.com: IT Fundamental</td><td>Aug 28 - Dec 20</td></tr>
+                    <tr><td>CSN 105</td><td>Cisco.com: OS Fundamental</td><td>Aug 28 - Dec 20</td></tr>
+                    <tr><td>CSN 110</td><td>Testout.com: Network Pro</td><td>Aug 28 - Dec 20</td></tr>
+                    <tr><td>CSN 120</td><td>Testout.com: Switching and Routing</td><td>Jan 25 - May 23</td></tr>
+                    <tr><td>CSN 130</td><td>Testout.com: Windows Server 2016</td><td>Jan 25 - May 23</td></tr>
+                    <tr><td>CSN 132</td><td>Testout.com: Linux Pro</td><td>Aug 28 - Dec 20</td></tr>
+                    <tr><td>CSN 140</td><td>Network Scripting (Python)</td><td>Jan 25 - May 23</td></tr>
+                    <tr><td>CSN 150</td><td>Infosec.com: Information Security Fundamental</td><td>Jan 25 - May 23</td></tr>
+                    <tr><td>CSN 160</td><td>Infosec.com: Ethical Hacking and Penetration Testing</td><td>Jan 25 - May 23</td></tr>
+                    <tr><td>CSN 170</td><td>Research Paper: Comprehensive Analysis of Cloud Computing Adoption</td><td>Jan 25 - May 23</td></tr>
+                    <tr><td>CSN 190</td><td>Research Paper: The Importance of Securing Your OS's</td><td>Jan 25 - May 23</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="programmer" class="section programmer-section">
+            <div class="profile-block">
+                <img src="Images/Screenshot 2024-08-20 124203.png" alt="Programmer profile graphic">
+                <p class="name"><strong>Wilmar Ferreiras</strong></p>
+                <p>
+                    Address: 1074 Ade AVE<br>
+                    Bronx, NY 10469<br>
+                    Email: ferreiraswilmar39@gmail.com<br>
+                    Phone: (347) 829-0460
+                </p>
+            </div>
+
+            <h2>My Programming Journey</h2>
+            <div class="programmer-intro">
+                <p>
+                    Hello future employers, my name is Wilmar Ferreiras. During the COVID-19 pandemic,
+                    I was introduced to programming and immediately fell in love with it. I have worked
+                    on projects independently and with teams, and this portfolio is one of those projects.
+                </p>
+                <img src="Images/download.jpeg" alt="Programming journey visual">
+            </div>
+
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Python</th>
+                        <th>C++</th>
+                        <th>HTML</th>
+                        <th>CSS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Intermediate</td>
+                        <td>Beginner</td>
+                        <td>Pro</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>Online CS50 YouTube Course</td>
+                        <td>Self taught</td>
+                        <td>Taught by NASA</td>
+                        <td>Self taught</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 class="experience-header">Experiences</h3>
+            <div class="experience-cards">
+                <article class="experience-card">
+                    <h4>NASA: globe.gov</h4>
+                    <p>
+                        From Jan 2023 to June 2023, I worked with NASA's Globe.gov website team as an intern.
+                        I learned HTML while helping fix buggy and unfinished markup.
+                    </p>
+                    <ul>
+                        <li>Created and replaced heading tags</li>
+                        <li>Included alt text for screen readers</li>
+                        <li>Added missing closing tags</li>
+                        <li>Troubleshot broken page elements</li>
+                    </ul>
+                </article>
+                <article class="experience-card">
+                    <h4>weareopenmarket.com</h4>
+                    <p>
+                        From July 8 to Aug 16, I worked with the Open Market team as an intern.
+                        I built a Python web scraper for BIPOC sponsor research and recreated parts
+                        of the website using HTML and CSS.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="accessibility" class="section accessibility-section">
+            <div class="profile-block">
+                <img src="Images/eye-circle-512.webp" alt="Accessibility tester profile graphic">
+                <p class="name"><strong>Wilmar Ferreiras</strong></p>
+                <p>
+                    Address: 1074 Ade AVE<br>
+                    Bronx, NY 10469<br>
+                    Email: ferreiraswilmar39@gmail.com<br>
+                    Phone: (347) 829-0460
+                </p>
+            </div>
+
+            <h2>My Accessibility Testing Journey</h2>
+            <div class="screen-readers">
+                <img src="Images/jaws-image.png" alt="JAWS screen reader logo">
+                <img src="Images/Screenshot 2024-08-21 205804.png" alt="Screen reader related screenshot">
+                <img src="Images/Screenshot 2024-08-21 210436.png" alt="Accessibility testing screenshot">
+            </div>
+
+            <p class="description">
+                Hello future employers, my name is Wilmar Ferreiras. I am a <b>visually impaired</b>
+                professional who graduated <b>Bronx Community College</b>. As a daily user of screen readers
+                and assistive technologies, I provide practical accessibility testing experience.
+            </p>
+
+            <div class="experience-grid">
+                <article class="experience-card">
+                    <h4>NASA: Globe.gov</h4>
+                    <p>
+                        From Jan 2023 to June 2023, I participated in accessibility testing for blind users.
+                    </p>
+                    <ol>
+                        <li>Navigated websites by heading structure</li>
+                        <li>Used keyboard tab navigation</li>
+                        <li>Tested buttons, links, and list navigation</li>
+                        <li>Documented findings for the team</li>
+                    </ol>
+                </article>
+                <article class="experience-card">
+                    <h4>weareopenmarket.com</h4>
+                    <p>From July 8 to Aug 16, I supported accessibility improvements through testing and recommendations.</p>
+                    <ol>
+                        <li>Reviewed readability with screen readers</li>
+                        <li>Created alt text for images</li>
+                        <li>Researched accessibility extensions and widgets</li>
+                        <li>Suggested UX improvements for inclusive use</li>
+                    </ol>
+                </article>
+                <article class="experience-card">
+                    <h4>Tech Trainer at TechPals (Lighthouse Guild)</h4>
+                    <p>
+                        From Oct 17 to the present, I have trained elderly users with visual impairments on modern technology.
+                    </p>
+                    <ol>
+                        <li>Trained mobile screen reader usage</li>
+                        <li>Worked in professional mentoring environments</li>
+                        <li>Organized and planned lessons</li>
+                        <li>Documented mentee progress</li>
+                    </ol>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
