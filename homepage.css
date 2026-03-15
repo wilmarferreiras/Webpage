@@ -1,46 +1,73 @@
 body{
-    margin: 0;
-    background-color:white;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#main-header{
-    text-align: center; 
-}
-.cyber-security{
-    float: left;
-    padding-left: 10%;
-}
-.cyber-security img{    
-    width: 20rem;
-    height: 20rem;
-}
-.cyber-security h2{
+    background-color:aliceblue;
     text-align: center;
+    margin: 6%;
+    font-style: italic;
 }
-.programmer img{
-    width: 20rem;
-    height: 20rem;
-    padding-left: 15%;
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    border-radius: 50%;
 }
-.programmer H2{
-    text-align: center;
+#circle-1{
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
 }
-.accessibility-tester img{
-    width: 20rem;
-    height: 20rem;
-    padding-left: 37%;
-}
-.accessibility-tester H2{
-    text-align: center;
-}
-#instructions{
-    text-align: center;
-    margin-right: -10%;
-    margin-top: -10%;
-    background-color: yellow;
-    float: right;
+#circle-2{
+    margin-left: 80px;
+    margin-top: -20px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
 
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 24px;
+}
+.security-section{
+    background-color: black;
+    color: green;   
+    border-top-left-radius: 50%;
+}
+#bronx-community-image{
+    width: 90%;
+}
+.bronx-community-college-table{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.programmer-section{
+    background-color: white;
+    border: 5px;
+}
+.programming-language-table{
+    width: 100%;
+}
+.accessibility-section{
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 50%;
+}
+.screen-readers{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.accessibility-section img{
+    width: 250px;
+    height: 250px;
+}
+.accessibility-section ol{
+    text-align: left;
 }
