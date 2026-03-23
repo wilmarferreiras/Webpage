@@ -1,73 +1,51 @@
-body{
-    background-color:aliceblue;
-    text-align: center;
-    margin: 6%;
-    font-style: italic;
+body {
+  background-color: white;
+  text-align: center;
+  margin: 6%;
+  font-style: italic;
 }
-.logo{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background-color: black;
-    border-radius: 50%;
+h1 {
+  font-size: 45px;
 }
-#circle-1{
-    margin-left: 40px;
-    margin-top: 40px;
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    border-radius: 50%;
+p {
+  font-size: 24px;
 }
-#circle-2{
-    margin-left: 80px;
-    margin-top: -20px;
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    border-radius: 50%;
-
+.security-section {
+  background-color: black;
+  color: green;
+  padding: 40px;
+  border-top-left-radius: 45%;
 }
-h1{
-    font-size: 45px;
+#bronx-community-image {
+  width: 90%;
 }
-p{
-    font-size: 24px;
+.bronx-community-college-table {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 5px;
 }
-.security-section{
-    background-color: black;
-    color: green;   
-    border-top-left-radius: 50%;
+.programmer-section {
+  background-color: black;
+  color: green;
+  padding: 40px;
 }
-#bronx-community-image{
-    width: 90%;
+.programming-language-table {
+  width: 100%;
 }
-.bronx-community-college-table{
-    width: 100%;
-    text-align: center;
-    padding-bottom: 5px;
+.accessibility-section {
+  background-color: black;
+  color: green;
+  padding: 40px;
 }
-.programmer-section{
-    background-color: white;
-    border: 5px;
+.screen-readers {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
-.programming-language-table{
-    width: 100%;
+.accessibility-section img {
+  width: 150px;
+  height: 150px;
 }
-.accessibility-section{
-    background-color: black;
-    color: white;
-    border-bottom-right-radius: 50%;
-}
-.screen-readers{
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-.accessibility-section img{
-    width: 250px;
-    height: 250px;
-}
-.accessibility-section ol{
-    text-align: left;
+.accessibility-section ol {
+  text-align: left;
 }
