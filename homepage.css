@@ -30,6 +30,10 @@ p {
   background-color: black;
   color: green;
   padding: 40px;
+  border-color: white;
+  border-top: 20px;
+  border-bottom: 20px;
+  border-style: solid;
 }
 .programming-language-table {
   width: 100%;
